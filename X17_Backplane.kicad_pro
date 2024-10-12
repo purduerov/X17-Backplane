@@ -614,6 +614,10 @@
     [
       "0b609d63-053d-4947-8bc2-b53c83cfcb53",
       "Root"
+    ],
+    [
+      "ad869c69-8d32-4ec0-b8bb-9dda93ac11ca",
+      "Connectors"
     ]
   ],
   "text_variables": {}
