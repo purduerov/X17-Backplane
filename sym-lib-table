@@ -11,4 +11,7 @@
   (lib (name "IPT1-105-01-L-D")(type "KiCad")(uri "C:/Users/virad/Downloads/IPT1-105-01-L-D/IPT1-105-01-L-D.kicad_sym")(options "")(descr ""))
   (lib (name "2024-10-03_15-47-29")(type "KiCad")(uri "C:/Users/virad/Downloads/HTST_110_04_L_D_RA/KiCADv6/2024-10-03_15-47-29.kicad_sym")(options "")(descr ""))
   (lib (name "ET60S-D04-3-08-D04-X-R1-S")(type "KiCad")(uri "C:/Users/virad/Downloads/ET60S-D04-3-08-D04-X-R1-S/ET60S-D04-3-08-D04-X-R1-S.kicad_sym")(options "")(descr ""))
+  (lib (name "DF11_10DS_2DSA_05_")(type "KiCad")(uri "C:/Users/virad/Downloads/DF11_10DS_2DSA_05_/KiCADv6/2024-10-12_17-36-16.kicad_sym")(options "")(descr ""))
+  (lib (name "430450212")(type "KiCad")(uri "C:/Users/virad/Downloads/430450212/KiCADv6/2024-10-12_17-49-01.kicad_sym")(options "")(descr ""))
+  (lib (name "DF11_10DS_2DSA_05_v2")(type "KiCad")(uri "C:/Users/virad/Downloads/DF11_10DS_2DSA_05_v2.kicad_sym")(options "")(descr ""))
 )
