@@ -618,6 +618,10 @@
     [
       "ad869c69-8d32-4ec0-b8bb-9dda93ac11ca",
       "Connectors"
+    ],
+    [
+      "291f0b58-00c0-47e0-9101-100347f548dc",
+      "LEDS&PWR"
     ]
   ],
   "text_variables": {}

@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 72.39 21.59)
+		(size 27.94 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "291f0b58-00c0-47e0-9101-100347f548dc")
+		(property "Sheetname" "LEDS&PWR"
+			(at 72.39 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDS&PWR.kicad_sch"
+			(at 72.39 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "X17_Backplane"
+				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 22.86)
 		(size 27.94 22.86)
 		(fields_autoplaced yes)

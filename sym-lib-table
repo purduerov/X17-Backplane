@@ -15,4 +15,6 @@
   (lib (name "430450212")(type "KiCad")(uri "C:/Users/virad/Downloads/430450212/KiCADv6/2024-10-12_17-49-01.kicad_sym")(options "")(descr ""))
   (lib (name "DF11_10DS_2DSA_05_v2")(type "KiCad")(uri "C:/Users/virad/Downloads/DF11_10DS_2DSA_05_v2.kicad_sym")(options "")(descr ""))
   (lib (name "430450612")(type "KiCad")(uri "C:/Users/virad/Downloads/430450612/KiCADv6/2024-10-12_19-00-20.kicad_sym")(options "")(descr ""))
+  (lib (name "IPS1-105-01-L-D")(type "KiCad")(uri "C:/Users/virad/Downloads/IPS1-105-01-L-D.kicad_sym")(options "")(descr ""))
+  (lib (name "P122427CT-ND")(type "KiCad")(uri "C:/Users/virad/Downloads/EEE_FT1E561UP/KiCADv6/2024-10-17_00-02-13.kicad_sym")(options "")(descr ""))
 )
