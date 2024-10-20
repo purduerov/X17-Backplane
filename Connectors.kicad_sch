@@ -5448,6 +5448,10 @@
 		(uuid "4e48395d-83c4-4c1d-92ba-44a08951bceb")
 	)
 	(no_connect
+		(at 45.72 146.05)
+		(uuid "5045af0e-c24d-4d7a-80ce-f767f038da97")
+	)
+	(no_connect
 		(at 217.17 62.23)
 		(uuid "5644c478-2536-4af5-a784-1205d8217300")
 	)
@@ -5474,6 +5478,10 @@
 	(no_connect
 		(at 217.17 57.15)
 		(uuid "8dde57b8-6b16-40be-b443-3b5cec3c451b")
+	)
+	(no_connect
+		(at 45.72 138.43)
+		(uuid "ae1250e1-b021-4734-90d4-0e7935c8d407")
 	)
 	(no_connect
 		(at 217.17 54.61)
@@ -5637,6 +5645,16 @@
 		)
 		(uuid "0aa6065e-0a80-4b06-9343-c11dfdc619bf")
 	)
+	(text "TOOL'S BOARD OUTPUT"
+		(exclude_from_sim no)
+		(at 131.826 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e1df795-30b0-4eef-8f16-03b42fa109ca")
+	)
 	(text "ESC CONTROLLER CONNECTOR "
 		(exclude_from_sim no)
 		(at 145.796 25.146 0)
@@ -5755,6 +5773,28 @@
 			)
 		)
 	)
+	(global_label "CS"
+		(shape input)
+		(at 161.29 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "0cf74372-707a-4c8c-a15a-eed1f923629e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.5691 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12V_1"
 		(shape input)
 		(at 214.63 36.83 180)
@@ -5865,6 +5905,28 @@
 			)
 		)
 	)
+	(global_label "MOSI"
+		(shape input)
+		(at 161.29 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "3cc4897c-fa5f-4e00-be62-443a8b06983c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.8392 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V_GND"
 		(shape input)
 		(at 74.93 121.92 270)
@@ -5900,6 +5962,28 @@
 		(uuid "3fee520a-2d17-4d75-8091-2f3448bd7a9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.824 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A_TB"
+		(shape input)
+		(at 135.89 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "40bdffc1-cbed-404a-a9b6-4870e7f6abb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.2577 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,6 +6719,28 @@
 			)
 		)
 	)
+	(global_label "B_TB"
+		(shape input)
+		(at 135.89 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "bd2c716b-74ab-4752-806d-f14a036d06ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.3666 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWMA2"
 		(shape input)
 		(at 125.73 52.07 180)
@@ -6741,6 +6847,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 161.29 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "cd394832-db6f-485b-9e89-243103ac43c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.948 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6877,6 +7005,28 @@
 			)
 		)
 	)
+	(global_label "MISO"
+		(shape input)
+		(at 161.29 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "f16d269e-7504-421e-9c90-78c474a7e2ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.8392 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Telemetry"
 		(shape input)
 		(at 154.94 48.26 180)
@@ -6918,6 +7068,74 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 130.81 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e1c6ec9-6946-4152-9614-2cd57905c32b")
+		(property "Reference" "J6"
+			(at 131.445 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 131.445 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 130.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3341d7fb-a036-455a-a789-9d7af6af07a5")
+		)
+		(pin "1"
+			(uuid "225e5f28-1d60-406e-9043-919199ba496c")
+		)
+		(instances
+			(project ""
+				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
+					(reference "J6")
+					(unit 1)
+				)
 			)
 		)
 	)
