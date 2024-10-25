@@ -6126,7 +6126,7 @@
 			)
 		)
 	)
-	(global_label "5V_GND"
+	(global_label "5V"
 		(shape input)
 		(at 74.93 121.92 270)
 		(fields_autoplaced yes)
@@ -6138,7 +6138,7 @@
 		)
 		(uuid "3db9bb9a-aa16-4289-87a4-92149eacc4ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 127.9931 90)
+			(at 74.93 125.0902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +6720,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_GND"
 		(shape input)
 		(at 74.93 104.14 90)
 		(fields_autoplaced yes)
@@ -6732,7 +6732,7 @@
 		)
 		(uuid "9b36905c-6044-4d00-9fd8-f42fd8909b34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 100.9698 90)
+			(at 74.93 98.0669 90)
 			(effects
 				(font
 					(size 1.27 1.27)
