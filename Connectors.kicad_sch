@@ -3139,176 +3139,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ET60S-D04-3-08-D04-X-R1-S:ET60S-D04-3-08-D04-X-R1-S"
 			(pin_names
 				(offset 1.016)
@@ -5568,30 +5398,6 @@
 			)
 		)
 	)
-	(junction
-		(at 27.94 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "199c79b0-3a4e-4275-b7b6-f4e8dfad5bab")
-	)
-	(junction
-		(at 74.93 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5862ace2-1bae-4860-a651-12d7e9977c23")
-	)
-	(junction
-		(at 74.93 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa610b04-5482-4d92-9ad2-4505b1ceb9ce")
-	)
-	(junction
-		(at 27.94 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c87972c4-3d8e-4b36-adc8-c38e0081a121")
-	)
 	(no_connect
 		(at 242.57 52.07)
 		(uuid "005bf28b-2fd5-4a4f-a18d-e9dae2e5450f")
@@ -5694,7 +5500,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 111.76) (xy 76.2 111.76)
+			(xy 72.39 111.76) (xy 76.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5744,73 +5550,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 114.3) (xy 27.94 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94d9f56a-17a9-4315-833b-9dd740782a51")
-	)
-	(wire
-		(pts
-			(xy 72.39 114.3) (xy 74.93 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ad8d86-40c1-4648-8bf6-eb7530652b48")
-	)
-	(wire
-		(pts
-			(xy 27.94 114.3) (xy 38.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b56f50fa-af85-4ecd-b716-2caee4ed6511")
-	)
-	(wire
-		(pts
-			(xy 27.94 111.76) (xy 38.1 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c670e8ad-61d6-4437-b2a3-0b4e2767e7df")
-	)
-	(wire
-		(pts
-			(xy 74.93 114.3) (xy 76.2 114.3)
+			(xy 72.39 114.3) (xy 76.2 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c67f563e-e70f-4d69-8080-b926b8216809")
-	)
-	(wire
-		(pts
-			(xy 24.13 111.76) (xy 27.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd2bf87-c5d0-4bfb-b9b7-05acee118976")
-	)
-	(wire
-		(pts
-			(xy 72.39 111.76) (xy 74.93 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3b6947a-f8c5-4ca4-9b26-7ec8a0f3bd8c")
 	)
 	(text "PI SHIELD CONNECTOR "
 		(exclude_from_sim no)
@@ -6122,28 +5868,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 74.93 121.92 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "3db9bb9a-aa16-4289-87a4-92149eacc4ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 125.0902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6720,28 +6444,6 @@
 			)
 		)
 	)
-	(global_label "5V_GND"
-		(shape input)
-		(at 74.93 104.14 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "9b36905c-6044-4d00-9fd8-f42fd8909b34")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 98.0669 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Telemetry"
 		(shape input)
 		(at 31.75 66.04 180)
@@ -6876,7 +6578,7 @@
 	)
 	(global_label "B"
 		(shape input)
-		(at 24.13 111.76 180)
+		(at 38.1 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6886,7 +6588,7 @@
 		)
 		(uuid "aaf07ec4-00cd-4acb-b8e7-b542e6d7817a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.5766 111.76 0)
+			(at 35.5466 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,28 +6928,6 @@
 			)
 		)
 	)
-	(global_label "5V_GND"
-		(shape input)
-		(at 27.94 104.14 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "dafa5846-6313-46ff-ac6f-1d92b6e4b593")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 98.0669 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "B"
 		(shape input)
 		(at 242.57 57.15 0)
@@ -7272,7 +6952,7 @@
 	)
 	(global_label "A"
 		(shape input)
-		(at 24.13 114.3 180)
+		(at 38.1 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7282,7 +6962,7 @@
 		)
 		(uuid "ef06cc74-34b1-404d-ac84-626a4df35eb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.6855 114.3 0)
+			(at 35.6555 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,28 +7007,6 @@
 		(uuid "f2143336-d28b-46ef-9550-d55b12df0711")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.7059 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 27.94 121.92 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "f991affb-eb86-41d2-996e-cc4991fd1be7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 125.0902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 156.21 73.66 0)
 			(effects
 				(font
@@ -7870,76 +7528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 74.93 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4753539e-d98f-4a5b-9dc5-dab986a74f21")
-		(property "Reference" "R4"
-			(at 77.47 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 77.47 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.946 118.364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 74.93 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cceba2f-5643-4920-aaba-8dddd3c2a251")
-		)
-		(pin "2"
-			(uuid "08ad56a8-684e-4d77-babd-859d8954f3a1")
-		)
-		(instances
-			(project ""
-				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "430450612:430450612")
 		(at 38.1 106.68 0)
 		(unit 1)
@@ -7967,7 +7555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_430450612_MOL"
+		(property "Footprint" "430450612:CON_430450612_MOL"
 			(at 38.1 106.68 0)
 			(effects
 				(font
@@ -8024,75 +7612,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 27.94 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74d6ef04-0042-41d8-bf40-e3ff3642e5e6")
-		(property "Reference" "R2"
-			(at 24.13 117.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 23.114 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 28.956 118.364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 27.94 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b6ce543-1bda-48ce-bc8c-01fffe77ffde")
-		)
-		(pin "2"
-			(uuid "5a5ab5b3-43fa-4d46-bb24-30b33272f94b")
-		)
-		(instances
-			(project "X17_Backplane"
-				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DF11_10DS_2DSA_05_:DF11-10DS-2DSA05")
 		(at 125.73 36.83 0)
 		(unit 1)
@@ -8119,7 +7638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON10_2X5_U_DF11_MOL_HIR"
+		(property "Footprint" "DF11_10DS_2DSA:CON10_2X5_U_DF11_MOL_HIR"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -8214,7 +7733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DF11_10DS_2DSA:CON10_2X5_U_DF11_MOL_HIR"
 			(at 163.83 34.29 0)
 			(effects
 				(font
@@ -8306,7 +7825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IPS1-105-01-L-D:SAMTEC_IPS1-105-01-L-D"
+		(property "Footprint" "IPS1_105_01_L_D_RA:SAMTEC_IPS1-105-01-L-D-RA"
 			(at 44.45 60.96 0)
 			(effects
 				(font
@@ -8404,75 +7923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 27.94 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6e899a7-5068-45dc-a3dd-e325108bce43")
-		(property "Reference" "R1"
-			(at 23.622 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 22.86 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 28.956 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 27.94 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31139cfc-2415-4ad6-9d22-d1f91a539547")
-		)
-		(pin "2"
-			(uuid "11b751de-1323-4f42-a83c-93e8506e7f65")
-		)
-		(instances
-			(project "X17_Backplane"
-				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "IPS1-105-01-L-D:IPS1-105-01-L-D")
 		(at 44.45 38.1 0)
 		(unit 1)
@@ -8498,7 +7948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IPS1-105-01-L-D:SAMTEC_IPS1-105-01-L-D"
+		(property "Footprint" "IPS1_105_01_L_D_RA:SAMTEC_IPS1-105-01-L-D-RA"
 			(at 44.45 38.1 0)
 			(effects
 				(font
@@ -8621,7 +8071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -8691,7 +8141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_430450212_MOL"
+		(property "Footprint" "CON430450612:CON_430450612_MOL"
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -8761,7 +8211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "282837-4_TYC"
+		(property "Footprint" "282837_3footprints:282837-3_TYC"
 			(at 128.27 114.3 0)
 			(effects
 				(font
@@ -8806,76 +8256,6 @@
 			(project ""
 				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 74.93 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9739c1c-7fa3-4852-a8dd-ef2f0d878d4f")
-		(property "Reference" "R3"
-			(at 77.47 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 77.47 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.946 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 74.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cceba2f-5643-4920-aaba-8dddd3c2a253")
-		)
-		(pin "2"
-			(uuid "08ad56a8-684e-4d77-babd-859d8954f3a3")
-		)
-		(instances
-			(project ""
-				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
-					(reference "R3")
 					(unit 1)
 				)
 			)

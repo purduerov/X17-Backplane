@@ -1766,7 +1766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 121.92 33.02 0)
 			(effects
 				(font
@@ -1836,7 +1836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 114.3 107.95 0)
 			(effects
 				(font
@@ -1969,7 +1969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_FN_F_PAN"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 44.45 39.37 0)
 			(effects
 				(font
@@ -2175,7 +2175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 114.3 95.25 0)
 			(effects
 				(font
@@ -2309,7 +2309,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 171.45 30.48 0)
 			(effects
 				(font
@@ -2446,7 +2446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -2512,7 +2512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_FN_F_PAN"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 30.48 39.37 0)
 			(effects
 				(font
@@ -2584,7 +2584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 114.3 88.9 0)
 			(effects
 				(font
@@ -2651,7 +2651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 114.3 132.08 0)
 			(effects
 				(font
@@ -2718,7 +2718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 94.996 44.704 90)
 			(effects
 				(font
@@ -2788,7 +2788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 93.98 33.02 0)
 			(effects
 				(font
@@ -2858,7 +2858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 227.33 34.29 0)
 			(effects
 				(font
@@ -2928,7 +2928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 172.466 44.704 90)
 			(effects
 				(font
@@ -3065,7 +3065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 114.3 125.73 0)
 			(effects
 				(font
@@ -3199,7 +3199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 228.346 47.244 90)
 			(effects
 				(font
@@ -3269,7 +3269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -3403,7 +3403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 114.3 114.3 0)
 			(effects
 				(font
@@ -3470,7 +3470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 122.936 45.974 90)
 			(effects
 				(font
