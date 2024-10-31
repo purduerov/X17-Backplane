@@ -14,4 +14,5 @@
   (lib (name "IPS1_105_01_L_D_RA")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/IPS1_105_01_L_D_RA")(options "")(descr ""))
   (lib (name "DF11_10DS_2DSA")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/DF11_10DS_2DSA_05_/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "430450612")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/430450612/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "430450212")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/430450212/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
