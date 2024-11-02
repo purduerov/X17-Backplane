@@ -1,4 +1,4 @@
-23867287893983032
+23869021021759913
 24VFootpring
 282837-4_TYC
 
@@ -20,6 +20,13 @@ LED_GS75000_WRE
 0
 3
 3
+430450212
+CON_430450212_MOL
+
+430450212 
+0
+2
+2
 430450612
 CON_430450612_MOL
 
@@ -54732,13 +54739,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DF11_10DS_2DSA
-CON10_2X5_U_DF11_MOL_HIR
+DF11_10DS_2SA_05
+CON10_2X5_UF_DF11_HIR
 
-DF11-10DS-2DSA05 
+DF11-10DP-2DSA01 
 0
-12
-12
+10
+10
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -56768,7 +56775,7 @@ SAMTEC_ET60S-D04-3-08-D04-X-R1-S
 
 0
 104
-104
+32
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
