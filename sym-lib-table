@@ -19,4 +19,5 @@
   (lib (name "IPS1-105-01-L-D")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/IPS1-105-01-L-D.kicad_sym")(options "")(descr ""))
   (lib (name "P122427CT-ND")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/2024-10-03_00-16-22.kicad_sym")(options "")(descr ""))
   (lib (name "ULN2003AD")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/ULN2003AD/KiCADv6/2024-11-02_18-10-10.kicad_sym")(options "")(descr ""))
+  (lib (name "SolenoidConn")(type "KiCad")(uri "${KIPRJMOD}/SolenoidConn.kicad_sym")(options "")(descr ""))
 )
