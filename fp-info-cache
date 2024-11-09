@@ -1,4 +1,4 @@
-23869021021759913
+23877677756870115
 24VFootpring
 282837-4_TYC
 
@@ -13,13 +13,6 @@ LED_GS75000_WRE
 0
 2
 2
-282837_3footprints
-282837-3_TYC
-
-282837-3 
-0
-3
-3
 430450212
 CON_430450212_MOL
 
@@ -54739,13 +54732,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DF11_10DS_2SA_05
+DF11_10_DP_2DSA
 CON10_2X5_UF_DF11_HIR
 
 DF11-10DP-2DSA01 
 0
-10
-10
+20
+20
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -56769,6 +56762,13 @@ EEE-FT1E561UP
 0
 2
 2
+ESCadapterfootprint
+PWM, 12V, GND JST Connector
+
+
+0
+30
+10
 ET60S-D04-3-08-D04-X-R1-S
 SAMTEC_ET60S-D04-3-08-D04-X-R1-S
 
@@ -89732,6 +89732,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+SolenoidFootPrint
+PXC-8-RA-1778683
+
+
+0
+8
+8
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -90747,6 +90754,13 @@ Logo WEEE
 0
 0
 0
+TB_282837_4
+282837-4_TYC
+
+282837-4 
+0
+4
+4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -96060,6 +96074,27 @@ igbt diode module
 0
 25
 25
+UL2N2003AD
+D0016A_L
+
+ULN2003AD 
+0
+16
+16
+UL2N2003AD
+D0016A_M
+
+ULN2003AD 
+0
+16
+16
+UL2N2003AD
+D0016A_N
+
+ULN2003AD 
+0
+16
+16
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
