@@ -9142,7 +9142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESCadapterfootprint:PWM, 12V, GND JST Connector"
+		(property "Footprint" "ESCadapterfootprint:PWM, 12V, GND JST Connector (1)"
 			(at 44.45 60.96 0)
 			(effects
 				(font
@@ -9377,7 +9377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESCadapterfootprint:PWM, 12V, GND JST Connector"
+		(property "Footprint" "ESCadapterfootprint:PWM, 12V, GND JST Connector (1)"
 			(at 44.45 38.1 0)
 			(effects
 				(font
