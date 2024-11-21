@@ -1,4 +1,4 @@
-23877677756870115
+23877679295912571
 24VFootpring
 282837-4_TYC
 
@@ -13,6 +13,13 @@ LED_GS75000_WRE
 0
 2
 2
+282837_6
+282837-6_TYC
+
+282837-6 
+0
+6
+6
 430450212
 CON_430450212_MOL
 
@@ -56763,12 +56770,12 @@ EEE-FT1E561UP
 2
 2
 ESCadapterfootprint
-PWM, 12V, GND JST Connector
+PWM, 12V, GND JST Connector (1)
 
 
 0
 30
-10
+9
 ET60S-D04-3-08-D04-X-R1-S
 SAMTEC_ET60S-D04-3-08-D04-X-R1-S
 
@@ -90754,13 +90761,6 @@ Logo WEEE
 0
 0
 0
-TB_282837_4
-282837-4_TYC
-
-282837-4 
-0
-4
-4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
