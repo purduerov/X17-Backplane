@@ -1,4 +1,4 @@
-(footprint "PWM, 12V, GND JST Connector (1)"
+(footprint "PWM, 12V, GND JST Connector (real)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
