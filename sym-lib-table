@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "2024-10-03_00-20-30")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/282837_3/KiCADv6/2024-10-03_00-20-30.kicad_sym")(options "")(descr ""))
   (lib (name "2024-10-03_00-19-42")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/150080GS75000/KiCADv6/2024-10-03_00-19-42.kicad_sym")(options "")(descr ""))
   (lib (name "WL-SMCW_0805")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/150080SS75000/WL-SMCW_0805.kicad_sym")(options "")(descr ""))
   (lib (name "2024-10-03_00-16-22")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/2024-10-03_00-16-22.kicad_sym")(options "")(descr ""))
@@ -21,4 +20,5 @@
   (lib (name "SolenoidConn")(type "KiCad")(uri "${KIPRJMOD}/SolenoidConn.kicad_sym")(options "")(descr ""))
   (lib (name "ips1-105-01-l-d (1)")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/ESCADAPTER/ips1-105-01-l-d (1).kicad_sym")(options "")(descr ""))
   (lib (name "282837_6")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/282837_6/KiCADv6/2024-11-17_19-06-21.kicad_sym")(options "")(descr ""))
+  (lib (name "282837-3")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/282837_3/282837-3.kicad_sym")(options "")(descr ""))
 )
