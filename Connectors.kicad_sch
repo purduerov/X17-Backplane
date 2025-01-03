@@ -6446,8 +6446,8 @@
 		(uuid "10d9c8d6-43c9-4191-8227-6927460e14bc")
 	)
 	(no_connect
-		(at 31.75 60.96)
-		(uuid "2890498f-ff2b-425d-b42a-beb47a491eaa")
+		(at 31.75 43.18)
+		(uuid "138e2590-25d9-4d18-bd4e-2f2ab718a569")
 	)
 	(no_connect
 		(at 217.17 64.77)
@@ -6466,32 +6466,16 @@
 		(uuid "49acfe75-fea4-4b4b-aead-837d68a5e835")
 	)
 	(no_connect
-		(at 31.75 38.1)
-		(uuid "4d8f4af2-b3e4-4d55-b7e3-3c13f3f86e86")
-	)
-	(no_connect
 		(at 31.75 40.64)
 		(uuid "4e48395d-83c4-4c1d-92ba-44a08951bceb")
-	)
-	(no_connect
-		(at 217.17 80.01)
-		(uuid "56f5a66f-b76f-4582-a693-c532fa2ac159")
 	)
 	(no_connect
 		(at 217.17 59.69)
 		(uuid "60fe5a9e-a816-4f7e-baf2-678f70a21e62")
 	)
 	(no_connect
-		(at 217.17 82.55)
-		(uuid "61a0ebf9-9bb0-4ff9-80b7-d7ffdf25e038")
-	)
-	(no_connect
 		(at 242.57 49.53)
 		(uuid "68e86943-79c1-4a7d-8a1a-9a76e79fee7f")
-	)
-	(no_connect
-		(at 217.17 85.09)
-		(uuid "7398d32f-4685-4f55-9219-12f48d6b2274")
 	)
 	(no_connect
 		(at 217.17 87.63)
@@ -6536,6 +6520,10 @@
 	(no_connect
 		(at 217.17 36.83)
 		(uuid "f9208ee2-71b6-457d-89f8-a0bfb06ac9f7")
+	)
+	(no_connect
+		(at 31.75 66.04)
+		(uuid "fffce14f-7c49-40fb-bbae-dc602d034a34")
 	)
 	(wire
 		(pts
@@ -6681,28 +6669,6 @@
 			)
 		)
 	)
-	(global_label "12V_GND"
-		(shape input)
-		(at 57.15 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "055a6b0a-3491-4fc2-96e3-772d3ada4f95")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.9488 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NRST_ESCC"
 		(shape input)
 		(at 149.86 44.45 180)
@@ -6743,6 +6709,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_GND"
+		(shape input)
+		(at 57.15 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "0bcd8a18-eda0-419c-899b-c7f391ee5e30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.2231 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7451,28 +7439,6 @@
 			)
 		)
 	)
-	(global_label "Telemetry"
-		(shape input)
-		(at 31.75 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "5a82594f-b831-469d-917d-da972245fadf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.5159 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO1"
 		(shape input)
 		(at 146.05 172.72 0)
@@ -7561,24 +7527,24 @@
 			)
 		)
 	)
-	(global_label "12V_GND"
+	(global_label "5V_GND"
 		(shape input)
-		(at 57.15 55.88 0)
+		(at 217.17 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.762 0.762)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "688059b9-7d3d-4623-8e20-94dcd2333e5f")
+		(uuid "692d1d8a-9c09-45bf-a4ac-b3c43c37d823")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.9488 55.88 0)
+			(at 211.0969 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7623,6 +7589,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "48V"
+		(shape input)
+		(at 217.17 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "700006b9-389c-4915-9ed9-0801a4a96e3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2741 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8023,6 +8011,28 @@
 			)
 		)
 	)
+	(global_label "5V_GND"
+		(shape input)
+		(at 57.15 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "905ff29c-926b-40ea-b189-aa6065e79764")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.2231 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SOL4_1"
 		(shape input)
 		(at 66.04 168.91 0)
@@ -8080,6 +8090,28 @@
 		(uuid "92e1df52-a2cb-4a5e-a5dc-c2e64447bd65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.2777 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Telemetry"
+		(shape input)
+		(at 31.75 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "94ade298-975a-4d8e-8506-cb801e281a92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.5159 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,28 +8200,6 @@
 		(uuid "9bef2177-9492-4257-b4d9-5038f468d4d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 120.5279 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Telemetry"
-		(shape input)
-		(at 31.75 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "9d8c41f0-c978-42da-adb7-c2c9164b1ea4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.5159 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,6 +8398,28 @@
 		(uuid "afc96940-f719-4610-ab2d-e662aad90b3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.1757 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "48V"
+		(shape input)
+		(at 217.17 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "afe0ea8c-7692-41ff-bc22-32f5949663b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2741 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,6 +8865,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Telemetry"
+		(shape input)
+		(at 31.75 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "f363c7a8-43a4-48dc-aa9e-801c4654e097")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.5159 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
