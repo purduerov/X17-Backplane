@@ -7549,6 +7549,28 @@
 			)
 		)
 	)
+	(global_label "A_TB-"
+		(shape input)
+		(at 128.27 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "6942e77c-7726-41e5-889c-c297d066a8d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.5811 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SOL6_1"
 		(shape input)
 		(at 66.04 179.07 0)
@@ -8244,6 +8266,28 @@
 		(uuid "a207b3b2-1642-489d-b019-70d69f47e343")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.9329 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A_TB+"
+		(shape input)
+		(at 128.27 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "a3f59039-c19b-41dd-9f7f-c565810c8af0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.5811 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,7 +9400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "1778612:PHOENIX_1778612"
 			(at 104.14 152.4 0)
 			(effects
 				(font
@@ -10560,6 +10604,74 @@
 			(project ""
 				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 123.19 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e30788c9-17e5-4aaa-bd98-cecef017dd86")
+		(property "Reference" "J11"
+			(at 123.825 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 123.825 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "124dca4a-884f-43a6-a193-b57d94844d48")
+		)
+		(pin "2"
+			(uuid "86916440-363c-4576-ab36-b9518838b8ad")
+		)
+		(instances
+			(project "X17_Backplane"
+				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
+					(reference "J11")
 					(unit 1)
 				)
 			)

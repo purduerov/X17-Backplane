@@ -22,4 +22,5 @@
   (lib (name "EEE_FT1E561UP")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/EEE_FT1E561UP")(options "")(descr ""))
   (lib (name "282837_3footprints")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/282837_3/KiCADv6/282837_3footprints.pretty")(options "")(descr ""))
   (lib (name "pcbimg")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/pcbimg")(options "")(descr ""))
+  (lib (name "1778612")(type "KiCad")(uri "${KIPRJMOD}/BackplaneSymbol+Footprint/1778612")(options "")(descr ""))
 )
