@@ -3554,6 +3554,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ET60S-D04-3-08-D04-X-R1-S:ET60S-D04-3-08-D04-X-R1-S"
 			(pin_names
 				(offset 1.016)
@@ -6493,6 +6626,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 101.6) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3a0faa-4369-4e21-81d3-cbea02682a71")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12a6080-f367-489b-95a7-7681004fefcd")
+	)
+	(wire
+		(pts
 			(xy 55.88 105.41) (xy 59.69 105.41)
 		)
 		(stroke
@@ -7925,7 +8078,7 @@
 	)
 	(global_label "48V"
 		(shape input)
-		(at 151.13 111.76 0)
+		(at 165.1 101.6 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7935,7 +8088,7 @@
 		)
 		(uuid "7f51396f-4734-4f19-a4b8-d61872c6a13b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.0259 111.76 0)
+			(at 165.1 97.7041 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10087,6 +10240,76 @@
 			(project ""
 				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 165.1 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80bf7e1c-ec40-4a28-a655-4a86176728f8")
+		(property "Reference" "F1"
+			(at 167.64 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 167.64 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453"
+			(at 163.322 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5daa980-3bb6-4334-8d33-a84cb8f4e9d0")
+		)
+		(pin "1"
+			(uuid "74c0a435-9a6c-4f1a-9105-e738fd7bdb27")
+		)
+		(instances
+			(project ""
+				(path "/0b609d63-053d-4947-8bc2-b53c83cfcb53/ad869c69-8d32-4ec0-b8bb-9dda93ac11ca"
+					(reference "F1")
 					(unit 1)
 				)
 			)
